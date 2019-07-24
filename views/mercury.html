@@ -1,15 +1,19 @@
 <% include partials/header %>
 
+		<nav>
+			<a href="/"> Home</a>
+			<a class="currentPage" href="/mercury"> Mercury</a> 
+			<a href="/venus"> Venus</a> 
+			<a href="/earth"> Earth</a> <br>
+		</nav>
+
 		<h1>Welcome to Mercury!</h1>
-		
-		<p>Click on a planet to know more about it: </p>
-		<a href="/mercury"> Mercury </a> <br>
-		<a href="/venus"> Venus </a> <br>
-		<a href="/earth"> Earth</a>
 
-		<img src="/img/mercury.jpg" alt="Mercury" />
+		<div class="imgAndText">
 
-		<p>Mercury is the smallest and innermost planet in the Solar System. 
+		<img id="planets" src="/img/mercury.png" alt="Mercury" />
+
+		<p class="planetInfo">Mercury is the smallest and innermost planet in the Solar System. 
 		Its orbital period around the Sun of 87.97 days is the shortest of all the 
 		planets in the Solar System. It is named after the Roman deity Mercury, the messenger 
 		of the gods.
@@ -21,6 +25,6 @@
 		the complete range of phases, similar to Venus and the Moon, as it moves in its inner 
 		orbit relative to Earth, which reoccurs over the so-called synodic period approximately 
 		every 116 days.</p>
-
+		</div>
 		
 <% include partials/footer %>

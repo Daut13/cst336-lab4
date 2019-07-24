@@ -1,13 +1,14 @@
 <% include partials/header %>
 
-		<h1>Welcome to the Solar System Site!</h1>
+		<h1 id="frontPageH1">Welcome to the Solar System Site!</h1>
 		
-		<img src="/img/solar-system.jpg" alt="The Solar System" />
+		<nav id="frontPageNav">
+			Click on a planet to learn more about it: <br>
+			<a class="fontPage" href="/mercury"> Mercury </a> 
+			<a class="fontPage" href="/venus"> Venus </a> 
+			<a class="fontPage" href="/earth"> Earth</a> <br>
+		</nav>
 		
-		<p>Click on a planet to know more about it: </p>
-		
-		<a href="/mercury">Mercury</a> <br>
-		<a href="/venus">Venus</a> <br>
-		<a href="/earth">Earth</a>
+		<img id="solarSystem" src="/img/solar-system.jpg" alt="The Solar System" />
 		
 <% include partials/footer %>

@@ -1,20 +1,24 @@
 <% include partials/header %>
 
+		<nav>
+			<a href="/"> Home</a>
+			<a href="/mercury"> Mercury</a> 
+			<a href="/venus"> Venus</a> 
+			<a href="/earth"> Earth</a> <br>
+		</nav>	
+
 		<h1>Welcome to Earth!</h1>
-		
-		<p>Click on a planet to know more about it: </p>
-		<a href="/mercury"> Mercury </a> <br>
-		<a href="/venus"> Venus </a> <br>
-		<a href="/earth"> Earth</a>
 
-		<img src="/img/earth.jpg" alt="Mercury" />
+		<div class="imgAndText">	
 
-		<p>Earth is the third planet from the Sun and the only astronomical object known to harbor life. 
+		<img id="planets" src="/img/earth.jpg" alt="Mercury" />
+
+		<p class="planetInfo">Earth is the third planet from the Sun and the only astronomical object known to harbor life. 
 		According to radiometric dating and other sources of evidence, Earth formed over 4.5 billion years ago. 
 		Earth's gravity interacts with other objects in space, especially the Sun and the Moon, Earth's only natural satellite. 
 		Earth orbits around the Sun in 365.26 days, a period known as an Earth year. 
-		During this time, Earth rotates about its axis about 366.26 times.</p>
-		<p>Click on a planet to know more about it: </p>
+		During this time, Earth rotates about its axis about 366.26 times.</p>		
 		
+		</div>
 		
 <% include partials/footer %>

@@ -1,4 +1,57 @@
+h1 {
+	font-weight: bold;
+	font-size: 3em;
+}
+
 body {
 	background-color: #cff5f6;
 	text-align: center;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 1.4em;
+}
+
+nav, nav a {
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white; 
+	font-family: 'Darker Grotesque', sans-serif;
+	background-color: black;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#frontPageNav {
+	font-size: 1.4em;
+	text-decoration: none; /* removes underline */
+	color: white; /* by default, links are blue */
+	font-family: 'Darker Grotesque', sans-serif;
+	background-color: black;
+	text-align: center;
+}
+
+.imgAndText {
+	display: flex;
+	justify-content: center;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.planetInfo {
+	margin: auto;
+}
+
+#planets {
+	border: 5px white solid;
+	border-radius: 20px;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+}
+
+#solarSystem {
+	border: 5px white solid;
+	border-radius: 20px;
+	margin: 10px auto;
+	width: 1000px;
+	height: 500px;
 }
